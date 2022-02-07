@@ -1,0 +1,87 @@
+.feedbacky_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.close_icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 16px;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.popup_inner {
+  position: absolute;
+  padding: 16px;
+  left: 25%;
+  right: 25%;
+  top: 33%;
+  bottom: 33%;
+  margin: auto;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.popup_form {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+textarea {
+  height: 100%;
+  width: 80%;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 90%;
+  height: 30%;
+  border-radius: 0.5rem;
+  margin-top: 10px;
+  color: white;
+  background-color: orange;
+  border: none;
+}
+
+h3 {
+  width: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.successMessage {
+  text-align: center;
+  color: green;
+}
+
+.failedMessage {
+  text-align: center;
+  color: red;
+}

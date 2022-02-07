@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Feedbacky Default 1`] = `
+<div>
+  <input
+    alt="feedbacky_icon"
+    className="feedbacky_icon"
+    onClick={[Function]}
+    src="ic-feedback-black.png"
+    style={
+      Object {
+        "height": "24px",
+        "width": "24px",
+      }
+    }
+    type="image"
+  />
+</div>
+`;
+
+exports[`Storyshots Components/FeedbackyPopup Default 1`] = `
+<div
+  style={
+    Object {
+      "minHeight": "75vh",
+      "width": "75vh",
+    }
+  }
+>
+  <div
+    className="popup_inner"
+  >
+    <input
+      alt="close_icon"
+      className="close_icon"
+      src="ic-close.png"
+      type="image"
+    />
+    <div
+      className="popup_form"
+    >
+      <h3>
+        Send Your Feedback
+      </h3>
+      <textarea
+        cols="35"
+        maxLength="2000"
+        onChange={[Function]}
+        rows="7"
+        value=""
+        wrap="soft"
+      />
+      <button
+        onClick={[Function]}
+      >
+        Send
+      </button>
+    </div>
+  </div>
+</div>
+`;
