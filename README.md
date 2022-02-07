@@ -6,7 +6,7 @@ React.js and Storybook are used in the application.
 
 Library's component documentation is provided by Storybook.
 
-Library are published on npm. You can access with the link below.
+Library is published on npm. You can access with the link below.
 
 https://www.npmjs.com/package/feedbacky-react-component
 
