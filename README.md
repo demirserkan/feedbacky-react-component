@@ -2,13 +2,11 @@
 
 Feedbacky is used for integrating a feedback system for client-side codebase.
 
-This library is the frontend part of the Feedbacky Project.
-
 React.js and Storybook are used in the application.
 
 Library's component documentation is provided by Storybook.
 
-Components used in the project are published on npm. You can access with the link below.
+Library are published on npm. You can access with the link below.
 
 https://www.npmjs.com/package/feedbacky-react-component
 
